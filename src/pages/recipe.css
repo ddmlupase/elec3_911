@@ -140,7 +140,7 @@
   margin: 2rem auto;
   padding: 0 2rem;
   position: relative;
-  padding-bottom: 50.625%; /* 16:9 aspect ratio */
+  padding-bottom: 28%; /* Reduced from 50.625% - adjust this value */
   height: 0;
   overflow: hidden;
 }
