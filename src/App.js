@@ -1,11 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Route, Routes, Navigate, Outlet } from 'react-router-dom';
 import Nav from './nav';
-import Home from './pages/Home';
-import Portfolio from './pages/Portfolio';
-import Login from './pages/Login';
-import Calculator from './pages/Calculator';
+import Home from './pages/home';
+import Portfolio from './pages/portfolio';
+import Login from './pages/login';
+import Calculator from './pages/calculator';
+import Recipe from './pages/recipe';
 
 const NavBarLayout = () => (
   <>
@@ -23,6 +23,7 @@ function App() {
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/login" element={<Login />} />
           <Route path="/calculator" element={<Calculator />} />
+          <Route path="/recipe" element={<Recipe />} />
         </Route>
       </Routes>
     </Router>
